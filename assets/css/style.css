@@ -29,6 +29,11 @@
 }
 
 
+.top_nav::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 .top_fix{
   width: 100%;
   height: 80px;
@@ -42,11 +47,6 @@
   height: 80px;
   overflow: hidden;
 }
-.top_nav::after{
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .top_l{
   width: 50%;
@@ -58,6 +58,7 @@
   line-height: 80px;
   text-align: right;
 }
+
 .top_nav a{
   padding: 0 15px;
   text-decoration: none;
@@ -65,8 +66,9 @@
 
 }
 
-.top_l a:first-child{
+.top_nav > .top_l a:first-child{
   border-right: 1px solid black;
+  padding: 0 15px 0 0;
 }
 
 .btn{
@@ -81,13 +83,43 @@
   border: 1px solid #FE775A;
 }
 
-.top_r a:first-child{
+#search{
   color: blue;
 }
 
 .top_r a{
   margin: 0 10px;
 }
+
+
+.head_nav{
+  height: 80px;
+  margin-top: 80px;
+  overflow: hidden;
+}
+
+.head_nav a{
+  text-decoration: none;
+  color: black;
+}
+
+.logo{
+  width: 50%;
+  line-height: 80px;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hero_ban{
   height: 610px;
@@ -102,10 +134,14 @@
 
 
 
-.main_nav{
-  height: 80px;
-  margin-top: 80px;
-}
+
+
+
+
+
+
+
+
 
 .first_line{
   height: 325px;

@@ -40,6 +40,7 @@
 }
 .top_nav{
   height: 80px;
+  overflow: hidden;
 }
 .top_nav::after{
   content: "";

@@ -178,8 +178,7 @@ body{
   display: table;
   clear: both;
 }
-.cont2{
-  margin: 0 50px 0;
+.cont2{;
   top: 50%;
   border: 1px solid lightgrey;
   border-radius: 5px;
@@ -214,22 +213,67 @@ body{
   list-style: none;
   display: inline-block;
   text-align: left;
+  padding: 1em 1em 1em 0;
 }
 .main_top i{
   color: #FE775A;
-  padding: 1em;
+  margin-right: 10px;
 }
-
-
-
-
-
-
-
 
 
 .third_line{
   height: 660px;
 }
+.cont3::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.cont3{
+  height: 100%;
+}
+.card:last-child{
+  margin: 0;
+}
+.card{
+  margin-right: 5%;
+  width: 30%;
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+.card img{
+  height: 100px;
+}
+.card h2{
+  margin: 20px 0;
+  font-size: 24px;
+}
+.card p{
+  line-height: 20px;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.card li{
+  list-style: none;
+  text-align: left;
+  font-size: 12px;
 
-.
+}
+.card h4{
+  margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* awiljdaw */

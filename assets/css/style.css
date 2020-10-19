@@ -169,7 +169,6 @@ body{
   text-align: center;
 }
 
-
 .second_line{
   height: 345px;
 }
@@ -220,7 +219,6 @@ body{
   margin-right: 10px;
 }
 
-
 .third_line{
   height: 660px;
 }
@@ -232,12 +230,10 @@ body{
 .cont3{
   height: 100%;
 }
-.card:last-child{
-  margin: 0;
-}
 .card{
   margin-right: 5%;
   width: 30%;
+  height: 90%;
   text-align: center;
   padding: 50px;
   background-color: white;
@@ -248,13 +244,13 @@ body{
   height: 100px;
 }
 .card h2{
-  margin: 20px 0;
+  margin: 25px 0;
   font-size: 24px;
 }
 .card p{
-  line-height: 20px;
-  margin-bottom: 30px;
-  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 40px;
+  font-size: 16px;
 }
 .card li{
   list-style: none;
@@ -265,10 +261,53 @@ body{
 .card h4{
   margin: 20px 0;
 }
+.card:last-child{
+  margin: 0;
+}
 
+.main_middle{
+  height: 700px;
+  background-color: lightgreen;
+  background-image: linear-gradient(to top right, #00bda6, #00a4bc);
+}
 
+.gridcontainer{
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
 
+.text_grid p{
+  margin: 30px 0;
+  line-height: 2em;
+}
+.text_grid h2{
+  font-size: 28px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
 
+.grid1::after, .grid2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.grid_col{
+  width: 25%;
+  padding: 20px 0 0;
+  line-height:3em;
+  border-right: 1px solid;
+}
+.grid_col h2{
+  font-size: 40px;
+}
+.grid_col p{
+  font-size: 10px;
+}
+
+.grid1 .grid_col:last-child, .grid2 .grid_col:last-child{
+  border-right: 0;
+}
 
 
 

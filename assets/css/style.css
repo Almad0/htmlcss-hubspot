@@ -153,18 +153,30 @@ body{
   border-bottom: 2px solid black;
 }
 
-
-
-
-
-
-
-
-
 .first_line{
-  height: 325px;
-  margin-top: 45px;
+  padding: 45px;
 }
+.cont{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cont img{
+  width: 40%;
+  margin: auto;
+}
+
+.first_line p{
+  width: 100%;
+  margin: auto;
+  line-height: 2em;
+  text-align: center;
+}
+
+
+
 
 .second_line{
   height: 345px;

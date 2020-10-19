@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* UTILITY CLASS */
 .container{
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 .mb_45{
@@ -28,7 +32,6 @@
   float: left;
 }
 
-
 .top_nav::after{
   content: "";
   display: table;
@@ -42,6 +45,7 @@
   left: 50%;
   transform: translateX(-50%);
   border-bottom: 2px solid black;
+  z-index: 1;
 }
 .top_nav{
   height: 80px;
@@ -52,88 +56,102 @@
   width: 50%;
   line-height: 80px;
 }
-
 .top_r{
   width: 50%;
   line-height: 80px;
   text-align: right;
 }
-
 .top_nav a{
   padding: 0 15px;
   text-decoration: none;
   color: black;
 
 }
-
 .top_nav > .top_l a:first-child{
   border-right: 1px solid black;
   padding: 0 15px 0 0;
 }
-
-.btn{
-  border-radius: 5px;
-  padding: 10px !important;
-  color: white;
-}
-
 #log_in{
   color: #FE775A;
   background-color: white;
   border: 1px solid #FE775A;
 }
-
 #search{
   color: blue;
 }
-
+.btn{
+  border-radius: 5px;
+  padding: 10px !important;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: #fc927b;
+}
 .top_r a{
   margin: 0 10px;
 }
-
 
 .head_nav{
   height: 80px;
   margin-top: 80px;
   overflow: hidden;
 }
-
 .head_nav a{
   text-decoration: none;
   color: black;
 }
-
 .logo{
   width: 50%;
   line-height: 80px;
   padding-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.second_div{
+  height: 610px;
+  width: 100%;
+  background-color: #FFF4EF;
+  position: relative;
+}
 
 .hero_ban{
+
   height: 610px;
-}
-.second_div{
+  background-position: right top;
   background-image: url('../img/jumbotron.png');
-  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
+.hero_text{
+  width: 30%;
+  position: absolute;
+  top: 100px;
+}
 
+.hero_text h1{
+  margin: 0 0 20px;
+  font-size: 50px;
+  font-weight: 800;
+}
 
+.hero_text p{
+  line-height: 2em;
+  margin: 0 0 2em;
+  font-size: 16px;
+}
 
+.hero_text p:last-child{
+  margin-top: 24px;
+  font-size: 10px;
+
+}
+
+.separator{
+  height: 80px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
 
 
 

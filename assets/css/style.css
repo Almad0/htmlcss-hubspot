@@ -94,6 +94,9 @@ body{
 .top_r a{
   margin: 0 10px;
 }
+.top_r a:last-child{
+  color: white;
+}
 
 .head_nav{
   height: 80px;
@@ -223,6 +226,7 @@ body{
   height: 100%;
 }
 .card{
+  position: relative;
   margin-right: 5%;
   width: 30%;
   height: 90%;
@@ -240,7 +244,7 @@ body{
   font-size: 24px;
 }
 .card p{
-  height: 150px;
+  height: 130px;
   line-height: 24px;
   margin-bottom: 40px;
   font-size: 16px;
@@ -253,6 +257,12 @@ body{
 }
 .card h4{
   margin: 20px 0;
+}
+.card a{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .card:last-child{
   margin: 0;
@@ -297,11 +307,6 @@ body{
   height: 240px;
   margin-top: 20px;
 }
-.aziende::after{
-  content: "";
-  display: table;
-  clear: both;
-}
 .aziende_num{
   width: 30%;
   height: 100%;
@@ -323,6 +328,7 @@ body{
   transform: translateX(-50%);
   font-size: 14px;
   line-height: 24px;
+  text-align: left;
 }
 .aziende_img{
   width: 70%;
@@ -344,11 +350,6 @@ body{
   width: 80%;
 }
 
-.growing::after{
-  content: "";
-  display: table;
-  clear: both;
-}
 .people_falza {
   text-align: right;
   width: 60%;

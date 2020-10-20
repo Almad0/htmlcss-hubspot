@@ -6,6 +6,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  min-width:1400px;
 }
 
 /* UTILITY CLASS */
@@ -270,13 +271,11 @@ body{
   background-color: lightgreen;
   background-image: linear-gradient(to top right, #00bda6, #00a4bc);
 }
-
 .gridcontainer{
   padding: 20px;
   text-align: center;
   color: white;
 }
-
 .text_grid p{
   margin: 30px 0;
   line-height: 2em;
@@ -286,7 +285,6 @@ body{
   padding: 20px;
   margin-bottom: 20px;
 }
-
 .grid1::after, .grid2::after{
   content: "";
   display: table;
@@ -304,16 +302,14 @@ body{
 .grid_col p{
   font-size: 10px;
 }
-
 .grid1 .grid_col:last-child, .grid2 .grid_col:last-child{
   border-right: 0;
 }
 
-
 .aziende{
   height: 240px;
+  margin-top: 20px;
 }
-
 .aziende::after{
   content: "";
   display: table;
@@ -335,26 +331,22 @@ body{
 }
 .aziende_num p{
   position: absolute;
-  bottom: 10%;
+  bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 14px;
   line-height: 24px;
 }
-
-
 .aziende_img{
   width: 70%;
   height: 100%;
   position: relative;
 }
-
 .aziende_grid1::after, .aziende_grid2::after{
   content: "";
   display: table;
   clear: both;
 }
-
 .aziende_grid1, .aziende_grid2{
   text-align: center;
   margin-bottom: 20px;
@@ -369,6 +361,43 @@ body{
   height: 80%;
   width: 80%;
 }
+
+.growing::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.people_falza {
+  text-align: right;
+  width: 60%;
+}
+.growing_text{
+  width: 40%;
+  margin: 20px 0;
+}
+.growing_text h2{
+  margin: 0 0 30px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.growing_text p{
+  line-height: 2em;
+  margin: 0 0 30px;
+  font-size: 14px;
+}
+.growing_text p:last-child{
+  margin-top: 30px;
+  font-size: 10px;
+}
+.people_falza img{
+  height: 300px;
+}
+
+
+
+
+
+
 
 
 
